@@ -7,7 +7,6 @@ import OImage from "@/public/oil+&+gas+production+automation.jpeg";
 import CImage from "@/public/control-circuits-troubleshooting.jpg";
 import IImage from "@/public/industrial.jpeg";
 import Link from "next/link";
-import { data } from "@/utils/HeaderData";
 import AImage from "@/public/iStock_87858973_SMALL-min.jpg";
 import ControldedCarosal from "@/components/ControldedCarosal";
 import {
@@ -22,7 +21,8 @@ const Home = () => {
   return (
     <>
       <div
-        className="z-10 relative w-full text-white"
+        id="home"
+        className="z-[100000] relative w-full text-white scroll-smooth "
         style={{
           backgroundImage: `url('${BgImage.src}')`, // Use the 'src' property
           backgroundSize: "cover",
@@ -33,12 +33,12 @@ const Home = () => {
       >
         <div className="absolute top-0 w-full -z-10 h-screen bg-[#0000004d]"></div>
 
-        <header className="p-3">
+        <header className="z-[10000000] fixed top-0 w-full p-3">
           <Header />
         </header>
-        <div className="z-50 text-center w-full  lg:pt-10">
+        <div className="pt-20 md:pt-0 z-50 text-center w-full  lg:pt-10">
           <p className="text-xl">YOU KNOW YOUR PROCESS,</p>
-          <strong className="tracking-wider text-4xl lg:text-[64px] pb-2 leading-[0.96]">
+          <strong className="tracking-wider text-3xl lg:text-[64px] pb-2 leading-[0.96]">
             WE KNOW HOW TO <br /> AUTOMATE
           </strong>
           <p className="text-2xl my-3 lg:my-6">
@@ -57,10 +57,13 @@ const Home = () => {
           </button>
         </center>
       </div>
-      <section className="py-24 px-2 md:px-8 md:max-w-[956px] mx-auto">
+      <section
+        id="about"
+        className="py-24 px-2 md:px-8 md:max-w-[956px] mx-auto"
+      >
         <div className="py-3 uppercase text-lg md:text-[25px] text-[#4a4a4a] font-semibold mx-auto text-center">
           IndustLabs provides industrial automation & control systems to improve
-          efficiency through automated systems and reduce human operators to
+          efficiency through automated systems and reduce human operators topage
           your manufacturing process.
         </div>
         <strong className="block uppercase text-[#4a4a4a] pt-2 text-lg md:text-[25px] text-center">
@@ -249,7 +252,7 @@ const Home = () => {
               }}
             >
               <div className="absolute top-0 w-full bg-[#0000001a] h-full"></div>
-              <div className="z-30 text-bold uppercase font-bold text-xl text-white">
+              <div className="z-20 text-bold uppercase font-bold text-xl text-white">
                 About us
               </div>
             </div>
@@ -297,7 +300,7 @@ const Home = () => {
           </button>
         </center>
       </section>
-      <div className="py-4 bg-[#1172A9] text-white px-4">
+      <div id="contact-us" className="py-4 bg-[#1172A9] text-white px-4">
         <div className="text-center text-2xl py-2">Get In Touch With Us</div>
         <p className="text-center">
           Please fill out the form below and we will be in touch soon.
@@ -456,7 +459,12 @@ const Home = () => {
             <label className="block py-1" htmlFor="message">
               Message <span className="text-xs">(required)</span>{" "}
             </label>
-            <textarea name="" rows={5} cols={100} id="message"></textarea>
+            <textarea
+              id="message"
+              name="message"
+              className="text-black w-full sm:w-3/4 lg:w-[99%] h-40 p-4"
+              placeholder="Type your message here..."
+            ></textarea>
           </div>
           <center>
             <button className="uppercase tracking-widest bg-black px-6 py-3">
@@ -470,15 +478,21 @@ const Home = () => {
       </div>
       <footer className="bg-[#1F1F1F] py-4 text-white">
         <center>
-          {data.map((item, index) => (
-            <Link
-              className="px-2 text-xs uppercase font-semibold"
-              href={item.link}
-              key={index}
-            >
-              {item.name}
-            </Link>
-          ))}
+          <Link className="px-2 text-xs uppercase font-semibold" href={"#home"}>
+            Home
+          </Link>
+          <Link
+            className="px-2 text-xs uppercase font-semibold"
+            href={"#about"}
+          >
+            About
+          </Link>
+          <Link
+            className="px-2 text-xs uppercase font-semibold"
+            href={"#contact-us"}
+          >
+            Contact Us
+          </Link>
         </center>
         <div className="text-center uppercase pt-2 ">
           IndustLabs, 201 Range Drive, Garland, TX, 75040, United
