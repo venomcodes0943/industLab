@@ -82,9 +82,7 @@ const Home = () => {
             <div className="text-3xl lg:text-5xl uppercase text-black font-bold ">
               manufacturing
             </div>
-            <button className="bg-black text-white uppercase px-8 py-2 rounded-full mt-4">
-              Learn more
-            </button>
+            
           </div>
         </div>
         <div className="flex flex-row-reverse flex-wrap lg:flex-nowrap items-center lg:justify-between mt-6">
@@ -93,9 +91,9 @@ const Home = () => {
             <div className="text-3xl lg:text-5xl uppercase text-black font-bold ">
               oil & gas
             </div>
-            <button className="bg-black text-white uppercase px-8 py-2 rounded-full mt-4">
+            {/* <button className="bg-black text-white uppercase px-8 py-2 rounded-full mt-4">
               Learn more
-            </button>
+            </button> */}
           </div>
         </div>
         <div className="flex items-center flex-wrap lg:flex-nowrap lg:justify-center mt-6">
@@ -104,9 +102,9 @@ const Home = () => {
             <div className="text-3xl lg:text-5xl uppercase text-black font-bold ">
               ELECTRICAL Control PANELS
             </div>
-            <button className="bg-black text-white uppercase px-8 py-2 rounded-full mt-4">
+            {/* <button className="bg-black text-white uppercase px-8 py-2 rounded-full mt-4">
               Learn more
-            </button>
+            </button> */}
           </div>
         </div>
         <div
@@ -266,16 +264,16 @@ const Home = () => {
               </div>
             </div>
             <p className=" text-[#4a4a4a] text-sm text-center py-3 leading-7">
-              Find out about IndustLabs Industrial Automation mission, our
+              Find out about Mahim Automation Industrial Automation mission, our
               methods, and the results of our automation, remote monitoring,
               control panel manufacturing, programmable logic controllers,
               automated equipment, and engineering services.
             </p>
-            <center>
+            {/* <center>
               <Link href={"#"} className="text-[#4a4a4a]">
                 Learn More →
               </Link>
-            </center>
+            </center> */}
           </div>
           <div className="w-[440px]">
             <div
@@ -290,16 +288,16 @@ const Home = () => {
               </div>
             </div>
             <p className="text-[#4a4a4a] text-sm text-center py-3 leading-7">
-              Find out about IndustLabs Industrial Automation mission, our
+              Find out about Mahim Automation Industrial Automation mission, our
               methods, and the results of our automation, remote monitoring,
               control panel manufacturing, programmable logic controllers,
               automated equipment, and engineering services.
             </p>
-            <center>
+            {/* <center>
               <Link href={"#"} className="text-[#4a4a4a]">
                 Learn More →
               </Link>
-            </center>
+            </center> */}
           </div>
         </div>
         <div className=" h-[0.1px] my-14 bg-[#4a4a4a48] mx-auto"></div>

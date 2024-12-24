@@ -43,7 +43,7 @@ const ControldedCarosal = () => {
           <div className="text-white">Oct 7, 2024</div>
           <Link className="text-xl" href={"#"}>
             Essential Switchgear Solutions for Industrial Automation –
-            IndustLabs
+            Mahim Automation
           </Link>
         </SwiperSlide>
 
