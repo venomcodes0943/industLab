@@ -3,9 +3,10 @@ import Link from "next/link";
 type FilpCardProps = {
   image?: string;
   text?: string;
+  frontSide?: string;
 };
 
-const CarosalFilpCard = ({ image, text }: FilpCardProps) => {
+const CarosalFilpCard = ({ image, text, frontSide }: FilpCardProps) => {
   return (
     <div className="group h-60 w-[455px] [perspective:1000px] mx-auto">
       <div className="relative h-full w-full transition-transform duration-200 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] text-white">
@@ -16,7 +17,7 @@ const CarosalFilpCard = ({ image, text }: FilpCardProps) => {
             backgroundImage: `url(${image})`,
           }}
         >
-          <h2 className="mt-4 text-lg font-bold">Front Side Text</h2>
+          <h2 className="mt-4 text-lg font-bold">{frontSide}</h2>
         </div>
 
         {/* Back Side */}

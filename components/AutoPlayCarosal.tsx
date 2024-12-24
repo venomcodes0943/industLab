@@ -25,36 +25,42 @@ export default function AutoPlayCarosal() {
         <SwiperSlide>
           <div className="flex flex-wrap md:flex-nowrap items-center gap-16 p-2">
             <CarosalFilpCard
+              frontSide="PLC Programming"
               image="https://images.squarespace-cdn.com/content/v1/55181a36e4b05c72e7f6a2a3/1696600899469-PDZY5U7LS09DIMKS2CX5/motor-control-center.jpg"
-              text="IndustLabs has over a decade of experience working with our manufacturing partners to build custom automation across a wide variety of industries. We can help reduce costs..."
+              text="Mahim Industrial Automation has over a decade of experience working with our manufacturing partners to build custom automation across a wide variety of industries. We can help reduce costs..."
             />
             <CarosalFilpCard
+              frontSide="HMI Designing"
               image="https://images.squarespace-cdn.com/content/v1/55181a36e4b05c72e7f6a2a3/1696605446639-OIETORC4XMDO4MYDDT8T/manufacturing-automation.jpg"
-              text="Industlabs is a Leading Automation expert providing World-class Automation and Control Solutions, SCADA IOT Services, Real-Time Data monitoring, Control Room Centers, Industrial IoT, Industrial ..."
+              text="Mahim Industrial Automation is a Leading Automation expert providing World-class Automation and Control Solutions, SCADA IOT Services, Real-Time Data monitoring, Control Room Centers, Industrial IoT, Industrial ..."
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-wrap md:flex-nowrap items-center gap-16 p-2">
             <CarosalFilpCard
+              frontSide="SCADA and DCS System Designing"
               image="https://images.squarespace-cdn.com/content/v1/55181a36e4b05c72e7f6a2a3/1696600899469-PDZY5U7LS09DIMKS2CX5/motor-control-center.jpg"
-              text="IndustLabs has over a decade of experience working with our manufacturing partners to build custom automation across a wide variety of industries. We can help reduce costs..."
+              text="Mahim Industrial Automation has over a decade of experience working with our manufacturing partners to build custom automation across a wide variety of industries. We can help reduce costs..."
             />
             <CarosalFilpCard
+              frontSide="IIot Integration"
               image="https://images.squarespace-cdn.com/content/v1/55181a36e4b05c72e7f6a2a3/1696605446639-OIETORC4XMDO4MYDDT8T/manufacturing-automation.jpg"
-              text="Industlabs is a Leading Automation expert providing World-class Automation and Control Solutions, SCADA IOT Services, Real-Time Data monitoring, Control Room Centers, Industrial IoT, Industrial ..."
+              text="Mahim Industrial Automation is a Leading Automation expert providing World-class Automation and Control Solutions, SCADA IOT Services, Real-Time Data monitoring, Control Room Centers, Industrial IoT, Industrial ..."
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-wrap md:flex-nowrap items-center gap-16 p-2">
             <CarosalFilpCard
+              frontSide="Energy Management System"
               image="https://images.squarespace-cdn.com/content/v1/55181a36e4b05c72e7f6a2a3/1696600899469-PDZY5U7LS09DIMKS2CX5/motor-control-center.jpg"
-              text="IndustLabs has over a decade of experience working with our manufacturing partners to build custom automation across a wide variety of industries. We can help reduce costs..."
+              text="Mahim Industrial Automation has over a decade of experience working with our manufacturing partners to build custom automation across a wide variety of industries. We can help reduce costs..."
             />
             <CarosalFilpCard
+              frontSide="Custom Automation Solutions"
               image="https://images.squarespace-cdn.com/content/v1/55181a36e4b05c72e7f6a2a3/1696605446639-OIETORC4XMDO4MYDDT8T/manufacturing-automation.jpg"
-              text="Industlabs is a Leading Automation expert providing World-class Automation and Control Solutions, SCADA IOT Services, Real-Time Data monitoring, Control Room Centers, Industrial IoT, Industrial ..."
+              text="Mahim Industrial Automation is a Leading Automation expert providing World-class Automation and Control Solutions, SCADA IOT Services, Real-Time Data monitoring, Control Room Centers, Industrial IoT, Industrial ..."
             />
           </div>
         </SwiperSlide>

@@ -32,11 +32,11 @@ const Header = () => {
     <>
       <div
         className={`z-[100000] flex tracking-widest items-center justify-between ${
-          isScrolled ? "bg-blue-500 rounded-md transition-all py-2" : ""
+          isScrolled ? "bg-black rounded-md transition-all py-2" : ""
         }`}
       >
         <div className="px-2">
-          <Image width={140} src={Logo} alt="logo" />
+          <img  className="w-16" src={"/logo.svg"}  alt="logo" />
         </div>
         <div className="px-2">
           <ul className="hidden md:flex items-center">

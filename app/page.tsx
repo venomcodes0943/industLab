@@ -1,6 +1,6 @@
 import AutoPlayCarosal from "@/components/AutoPlayCarosal";
 import Header from "@/components/Header";
-import BgImage from "@/public/unsplash-image-9xHsWmh3m_4.jpg";
+import BgImage from "@/public/hero.jpg";
 import Image from "next/image";
 import MImage from "@/public/manufacturing+automation.jpg";
 import OImage from "@/public/oil+&+gas+production+automation.jpeg";
@@ -27,17 +27,18 @@ const Home = () => {
           backgroundImage: `url('${BgImage.src}')`, // Use the 'src' property
           backgroundSize: "cover",
           backgroundPosition: "center",
+          backdropFilter: "brightness(0.5)",
           backgroundRepeat: "no-repeat",
           height: "100vh",
         }}
       >
         <div className="absolute top-0 w-full -z-10 h-screen bg-[#0000004d]"></div>
 
-        <header className="z-[10000000] fixed top-0 w-full p-3">
+        <header className="z-[10000000] fixed top-0 w-full p-3 bg-black">
           <Header />
         </header>
-        <div className="pt-20 md:pt-0 z-50 text-center w-full  lg:pt-10">
-          <p className="text-xl">YOU KNOW YOUR PROCESS,</p>
+        <div className="pt-20 md:pt-0 z-50 text-center w-full  lg:pt-24">
+          <p className="text-3xl font-medium">YOU KNOW YOUR PROCESS,</p>
           <strong className="tracking-wider text-3xl lg:text-[64px] pb-2 leading-[0.96]">
             WE KNOW HOW TO <br /> AUTOMATE
           </strong>
@@ -47,13 +48,13 @@ const Home = () => {
           <p className="text-2xl my-4 lg:my-6">PLC Programming</p>
           <p className="text-2xl my-4 lg:my-6">HMI Configurations</p>
           <p className="text-2xl my-4 lg:my-6">Design and Fabrication</p>
-          <a href="tel:+1 (877) 945-2272" className="text-2xl py-4 lg:my-6">
-            +1 (877) 945-2272
+          <a href="tel:+923704961427" className="text-2xl py-4 lg:my-6">
+            +92 370 4961427
           </a>
         </div>
         <center>
-          <button className="mt-6 bg-cyan-500 px-2 md:px-6 rounded-full text-sm md:text-lg font-semibold py-2">
-            Work with IndustLabs on your Next Big Idea!
+          <button className="mt-6 bg-black px-2 md:px-6 rounded-full text-sm md:text-lg font-semibold py-2">
+            Work with Mahim Automation on your Next Big Idea!
           </button>
         </center>
       </div>
@@ -62,9 +63,11 @@ const Home = () => {
         className="py-24 px-2 md:px-8 md:max-w-[956px] mx-auto"
       >
         <div className="py-3 uppercase text-lg md:text-[25px] text-[#4a4a4a] font-semibold mx-auto text-center">
-          IndustLabs provides industrial automation & control systems to improve
-          efficiency through automated systems and reduce human operators topage
-          your manufacturing process.
+          Mahim Automation specializes in delivering cutting-edge industrial
+          automation and control solutions designed to streamline your
+          manufacturing processes, enhance efficiency, and minimize reliance on
+          human operators. Our tailored automated systems empower businesses to
+          achieve precision, productivity, and seamless operations.
         </div>
         <strong className="block uppercase text-[#4a4a4a] pt-2 text-lg md:text-[25px] text-center">
           Best in class Industrial Automation Solutions
@@ -85,7 +88,7 @@ const Home = () => {
           </div>
         </div>
         <div className="flex flex-row-reverse flex-wrap lg:flex-nowrap items-center lg:justify-between mt-6">
-          <Image src={OImage} alt="ads" width={500} height={500} />
+          <Image src={"/oil.avif"} alt="ads" width={500} height={500} />
           <div className="mt-2 lg:mt-0 lg:px-4">
             <div className="text-3xl lg:text-5xl uppercase text-black font-bold ">
               oil & gas
@@ -117,7 +120,7 @@ const Home = () => {
               industrial <br /> automation <br /> project in mind?
             </div>
             <div className="pt-3 text-xl text-center">
-              Work with IndustLabs on your next big idea!
+              Work with Mahim Automation on your next big idea!
             </div>
             <center>
               <button className="px-6 py-2 rounded-full tracking-wider hover:bg-white/65 mt-8 bg-white uppercase text-black">
@@ -131,12 +134,18 @@ const Home = () => {
             Manufacturing Automation & Intelligence
           </div>
           <p className="text-sm py-2 text-[#1a1a1ab3] tracking-wide leading-8">
-            IndustLabs has partnered with manufacturers across the US to help
-            automate process by reducing waste & human labor, increase product
-            quality, and scale automation systems so our partners can grow their
-            revenues at scale. Our expertise ranges from machine automation,
-            robotics, engineering consulting , machine vision & tactile
-            solutions, new product designs and prototyping.
+            Mahim Industrial Automation collaborates with manufacturers across
+            the globe to revolutionize industrial processes by reducing waste,
+            minimizing manual labor, enhancing product quality, and scaling
+            automation systems for sustainable growth. Our expertise spans
+            machine automation, robotics, engineering consulting, machine vision
+            and tactile solutions, innovative product designs, and prototyping.
+            From designing to installation, Mahim Automation handles every
+            aspect of the process. <br /> We specialize in crafting custom
+            control panels tailored to our customers' unique requirements. As a
+            leading engineering solutions provider, we deliver bespoke
+            electrical control panels and products designed to optimize your
+            operations and drive efficiency.
           </p>
           <p className="text-sm py-2 text-[#1a1a1ab3] tracking-wide leading-8">
             From control panel design to installation, we at IndustLabs cover
@@ -147,8 +156,8 @@ const Home = () => {
         </div>
         <div className="py-2 max-w-[755px] mx-auto">
           <div className="text-bold text-lg uppercase text-center font-semibold text-[#1a1a1ae6]">
-            IndustLabs Provides The Best In Class Industrial Automation
-            Solutions
+            Mahim Industrial Automation Provides The Best In Class Industrial
+            Automation Solutions
           </div>
           <p className="text-sm py-2 text-[#1a1a1ab3] tracking-wide leading-6 mx-auto">
             We are your one stop shop for all Industrial Automation needs. We
@@ -173,7 +182,7 @@ const Home = () => {
             your business.
           </p>
         </div>
-        <div className="text-2xl text-bold py-3 uppercase text-center font-semibold text-[#1a1a1ae6]">
+        {/* <div className="text-2xl text-bold py-3 uppercase text-center font-semibold text-[#1a1a1ae6]">
           Our Work
         </div>
         <div className="mt-6">
@@ -195,8 +204,8 @@ const Home = () => {
         </p>
         <div className="text-center md:text-lg pt-4 text-[#4a4a4a]">
           — AIR FILTRATION INDUSTRY &quot;Company name protected by NDA&quot;
-        </div>
-        <div className="mt-12">
+        </div> */}
+        {/* <div className="mt-12">
           <p className="text-7xl text-[#4a4a4a] text-center">&ldquo;</p>
           <div className="text-sm md:text-base -mt-4 text-center">
             We lost our primary services engineer in the Permian Basin region.
@@ -223,9 +232,9 @@ const Home = () => {
         <div className="text-center md:text-lg pt-4 text-[#4a4a4a]">
           — FOOD MANUFACTURER BAKING INDUSTRY &quot;Company name protected by
           NDA&quot;
-        </div>
+        </div> */}
 
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <p className="text-7xl text-[#4a4a4a] text-center">&ldquo;</p>
           <div className="text-sm md:text-base -mt-4 text-center">
             We are a competing Industrial Automation company and we were on-site
@@ -238,10 +247,10 @@ const Home = () => {
             have turned down business to maintain our partnership. We really
             appreciate it.
           </div>
-        </div>
-        <div className="text-center md:text-lg pt-4 text-[#4a4a4a]">
+        </div> */}
+        {/* <div className="text-center md:text-lg pt-4 text-[#4a4a4a]">
           — SYSTEM INTEGRATOR &quot;Company name protected by NDA&quot;
-        </div>
+        </div> */}
         <div className=" h-[0.1px] my-14 bg-[#4a4a4a48] mx-auto"></div>
         <div className="flex flex-wrap md:flex-nowrap items-center justify-center gap-10">
           <div className="w-[440px]">
@@ -296,7 +305,7 @@ const Home = () => {
         <div className=" h-[0.1px] my-14 bg-[#4a4a4a48] mx-auto"></div>
         <center>
           <button className="px-6 bg-black text-white py-3 text-center text-2xl">
-            Work with IndustLabs on your Next Big Idea!
+            Work with Mahim Automation on your Next Big Idea!
           </button>
         </center>
       </section>
@@ -472,9 +481,9 @@ const Home = () => {
             </button>
           </center>
         </form>
-        <div className="relative md:max-w-[956px] mx-auto py-12">
+        {/* <div className="relative md:max-w-[956px] mx-auto py-12">
           <ControldedCarosal />
-        </div>
+        </div> */}
       </div>
       <footer className="bg-[#1F1F1F] py-4 text-white">
         <center>
@@ -495,26 +504,26 @@ const Home = () => {
           </Link>
         </center>
         <div className="text-center uppercase pt-2 ">
-          IndustLabs, 201 Range Drive, Garland, TX, 75040, United
-          States972-591-3868sales@industlabs.com
+          Mahim Automation, <br />
+          Badar Colony Faisalabad, Pakistan <br />
+          info@mahimautomation.com
         </div>
 
         <div className="flex justify-center my-6 items-center space-x-4 transition">
-          <div className="p-4 bg-white hover:bg-gray-400 group rounded-full transition">
+          <a
+            href="https://www.facebook.com/share/15joeY4c3z/"
+            target="_blank"
+            className="p-4 bg-white hover:bg-gray-400 group rounded-full transition"
+          >
             <FaFacebookF className="text-gray-700 group-hover:text-black transition" />
-          </div>
-          <div className="p-4 bg-white hover:bg-gray-400 group rounded-full transition">
-            <FaLinkedinIn className="text-gray-700 group-hover:text-black transition" />
-          </div>
-          <div className="p-4 bg-white hover:bg-gray-400 group rounded-full transition">
-            <FaTwitter className="text-gray-700 group-hover:text-black transition" />
-          </div>
-          <div className="p-4 bg-white hover:bg-gray-400 group rounded-full transition">
-            <FaInstagram className="text-gray-700 group-hover:text-black transition" />
-          </div>
-          <div className="p-4 bg-white hover:bg-gray-400 group rounded-full transition">
+          </a>
+          <a
+
+            href="mailto:info@mahimautomation.com"
+            className="p-4 bg-white hover:bg-gray-400 group rounded-full transition"
+          >
             <FaEnvelope className="text-gray-700 group-hover:text-black transition" />
-          </div>
+          </a>
         </div>
       </footer>
     </>
