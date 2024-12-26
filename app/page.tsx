@@ -20,6 +20,7 @@ import {
 const Home = () => {
   return (
     <>
+      {/* Here we go */}
       <div
         id="home"
         className="z-[100000] relative w-full text-white scroll-smooth "
@@ -82,7 +83,6 @@ const Home = () => {
             <div className="text-3xl lg:text-5xl uppercase text-black font-bold ">
               manufacturing
             </div>
-            
           </div>
         </div>
         <div className="flex flex-row-reverse flex-wrap lg:flex-nowrap items-center lg:justify-between mt-6">
@@ -516,7 +516,6 @@ const Home = () => {
             <FaFacebookF className="text-gray-700 group-hover:text-black transition" />
           </a>
           <a
-
             href="mailto:info@mahimautomation.com"
             className="p-4 bg-white hover:bg-gray-400 group rounded-full transition"
           >
