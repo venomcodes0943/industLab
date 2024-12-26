@@ -3,19 +3,11 @@ import Header from "@/components/Header";
 import BgImage from "@/public/hero.jpg";
 import Image from "next/image";
 import MImage from "@/public/manufacturing+automation.jpg";
-import OImage from "@/public/oil+&+gas+production+automation.jpeg";
 import CImage from "@/public/control-circuits-troubleshooting.jpg";
 import IImage from "@/public/industrial.jpeg";
 import Link from "next/link";
 import AImage from "@/public/iStock_87858973_SMALL-min.jpg";
-import ControldedCarosal from "@/components/ControldedCarosal";
-import {
-  FaEnvelope,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaEnvelope, FaFacebookF } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -140,7 +132,7 @@ const Home = () => {
             and tactile solutions, innovative product designs, and prototyping.
             From designing to installation, Mahim Automation handles every
             aspect of the process. <br /> We specialize in crafting custom
-            control panels tailored to our customers' unique requirements. As a
+            control panels tailored to our customers unique requirements. As a
             leading engineering solutions provider, we deliver bespoke
             electrical control panels and products designed to optimize your
             operations and drive efficiency.
